@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/space_2x"
-    tools:context=".AddNoteFragment">
+    android:background="@color/white"
+    tools:context=".presentation.notes.NoteFragment">
 
     <LinearLayout
         android:id="@+id/nameWrapper"
@@ -94,7 +95,7 @@
             android:layout_marginStart="@dimen/space_2x"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="@string/end" />
+            android:text="@string/end" />
 
         <TextView
             android:id="@+id/endDataValue"
